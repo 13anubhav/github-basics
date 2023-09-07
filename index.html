@@ -5,47 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anubhav Git Commands</title>
     <link rel="stylesheet" href="style.css">
-  
 </head>
 <body>
     <div class="container">
         <h1>Anubhav Git Commands</h1>
         <div class="command">
-            <p>git init</p>
-            <button class="copy-button" onclick="copyToClipboard('1. git init')">Copy</button>
+            <p>1. git init</p>
+            <button class="copy-button" onclick="copyToClipboard('git init', this)">Copy</button>
         </div>
         <div class="command">
-            <p>git remote add upstream</p>
-            <button class="copy-button" onclick="copyToClipboard('2. git remote add upstream')">Copy</button>
-        </div>
-
-        <div class="command">
-            <p>git pull upstream main</p>
-            <button class="copy-button" onclick="copyToClipboard('3. git pull upstream main')">Copy</button>
+            <p>2. git remote add upstream</p>
+            <button class="copy-button" onclick="copyToClipboard('git remote add upstream', this)">Copy</button>
         </div>
         <div class="command">
-            <p>git add .</p>
-            <button class="copy-button" onclick="copyToClipboard('4. git add .')">Copy</button>
+            <p>3. git pull upstream main</p>
+            <button class="copy-button" onclick="copyToClipboard('git pull upstream main',this)">Copy</button>
         </div>
         <div class="command">
-            <p>git status</p>
-            <button class="copy-button" onclick="copyToClipboard('5. git status')">Copy</button>
+            <p>4. git add .</p>
+            <button class="copy-button" onclick="copyToClipboard('git add .',this)">Copy</button>
         </div>
         <div class="command">
-            <p>git commit -m 'comment here'</p>
-            <button class="copy-button" onclick="copyToClipboard('6. git commit -m \'comment here\'')">Copy</button>
+            <p>5. git status</p>
+            <button class="copy-button" onclick="copyToClipboard('git status',this)">Copy</button>
         </div>
         <div class="command">
-            <p>git remote add origin</p>
-            <button class="copy-button" onclick="copyToClipboard('7. git remote add origin')">Copy</button>
+            <p>6. git commit -m 'comment here'</p>
+            <button class="copy-button" onclick="copyToClipboard('git commit -m \'comment here\'',this)">Copy</button>
+        </div>
+        <div class="command">
+            <p>7. git remote add origin</p>
+            <button class="copy-button" onclick="copyToClipboard('git remote add origin',this)">Copy</button>
         </div>
         <div class="command">
             <p>8. git push -u origin master</p>
-            <button class="copy-button" onclick="copyToClipboard('8. git push -u origin master')">Copy</button>
+            <button class="copy-button" onclick="copyToClipboard('git push -u origin master',this)">Copy</button>
         </div>
-        <!-- Add more commands here -->
+        <!-- ... (other commands) -->
+
         <div class="copy-success" id="copySuccess">Copied!</div>
     </div>
-<script src="script.js"></script>
+   
+    <script src="script.js"></script>
+    
 </body>
 </html>
