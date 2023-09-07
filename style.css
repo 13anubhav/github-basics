@@ -55,15 +55,13 @@ h1 {
 .copy-button:hover {
     background-color: #0056b3;
 }
-
 .copy-success {
     background-color: #28a745;
     color: #fff;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 8px !important; /* Adjust the padding */
+    font-size: 12px !important; /* Adjust the font size */
     position: absolute;
-    right: 10px;
-    top: 10px;
     opacity: 0;
     transition: opacity 0.3s;
 }
